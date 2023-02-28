@@ -1,0 +1,97 @@
+.body {
+  min-height: 100vh;
+  padding-bottom: 10px;
+}
+
+.dark{
+  background-color: #393d46;
+  color: #222;
+}
+
+.body.light {
+  background-color: #ddd;
+  color: #222;
+}
+
+.body.dark {
+  background-color: #393d46;
+  color: #222;
+}
+
+.carddd:hover {
+  transform: scale(1.05);
+  box-shadow: 5 5 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.carddd {
+  box-shadow: 5px 5px 10px;
+  border-radius: 2.5%;
+}
+
+.rightleft {
+  display: flex;
+}
+
+.navbarr:hover {
+  text-shadow: 2px 2px 5px;
+}
+
+.footer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .rightleft {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .rightleft .right {
+    margin-top: 40px;
+  }
+
+  .rightleft .left {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
